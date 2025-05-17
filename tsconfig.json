@@ -12,13 +12,14 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "ESNext", // Output ES Modules
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react",
-    "skipLibCheck": true
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "declaration": true, // Generate .d.ts files
+    "outDir": "dist/esm", // Output directory for ES Modules
   },
   "include": [
     "src",
