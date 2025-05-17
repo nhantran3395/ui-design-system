@@ -38,12 +38,16 @@
     "jackspeak": "2.1.1"
   },
   "name": "@nhantran3395/ui_design_system",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nhan Tran's personal UI design system",
   "main": "index.js",
   "author": "Nhan Tran",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhantran3395/ui-design-system.git"
   }
 }
