@@ -32,6 +32,7 @@
   "dependencies": {
     "lucide-react": "^0.292.0",
     "postcss": "^8.4.31",
+    "react-aria": "^3.39.0",
     "react-aria-components": "latest",
     "tailwind-variants": "^0.3.1"
   },
@@ -40,7 +41,7 @@
     "jackspeak": "2.1.1"
   },
   "name": "@nhantran3395/ui_design_system",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Nhan Tran's personal UI design system",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",

@@ -5204,6 +5204,8 @@ react-aria-components@latest:
 
 react-aria@^3.39.0:
   version "3.39.0"
+  resolved "https://registry.npmjs.org/react-aria/-/react-aria-3.39.0.tgz"
+  integrity sha512-zXCjR01WnfW4uW0f294uWrvdfwEMHgDFSwMwMBwRafAvmsQea87X5VTAfDmQOAbPa+iQFcngIyH0Pn5CfXNrjw==
   dependencies:
     "@internationalized/string" "^3.2.6"
     "@react-aria/breadcrumbs" "^3.5.23"
