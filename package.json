@@ -38,7 +38,7 @@
     "jackspeak": "2.1.1"
   },
   "name": "@nhantran3395/ui_design_system",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Nhan Tran's personal UI design system",
   "main": "index.js",
   "author": "Nhan Tran",
