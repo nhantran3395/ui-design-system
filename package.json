@@ -40,10 +40,11 @@
     "jackspeak": "2.1.1"
   },
   "name": "@nhantran3395/ui_design_system",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Nhan Tran's personal UI design system",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
   "author": "Nhan Tran",
   "license": "ISC",
   "publishConfig": {
@@ -52,5 +53,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nhantran3395/ui-design-system.git"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
