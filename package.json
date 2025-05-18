@@ -45,8 +45,21 @@
   "name": "@nhantran3395/ui_design_system",
   "version": "0.0.8",
   "description": "Nhan Tran's personal UI design system",
-  "main": "dist/esm/index.js",
-  "module": "dist/esm/index.js",
+  "main": "index.js",
+  "module": "esm/index.js",
+  "typings": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./esm/index.js",
+      "require": "./index.js"
+    },
+    "./*": {
+      "types": "./*/index.d.ts",
+      "import": "./esm/*/index.js",
+      "require": "./*/index.js"
+    }
+  },
   "types": "dist/esm/index.d.ts",
   "author": "Nhan Tran",
   "license": "ISC",
