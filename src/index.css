@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import "tailwindcss/utilities";
 @plugin 'tailwindcss-react-aria-components';
 @plugin 'tailwindcss-animate';
 
