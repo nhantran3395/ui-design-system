@@ -43,7 +43,7 @@
     "jackspeak": "2.1.1"
   },
   "name": "@nhantran3395/ui_design_system",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Nhan Tran's personal UI design system",
   "main": "index.js",
   "module": "esm/index.js",
@@ -56,9 +56,9 @@
     },
     "./style.css": "./dist/style.css",
     "./*": {
-      "types": "./dist/esm/*/index.d.ts",
-      "import": "./dist/esm/*/index.js",
-      "require": "./dist/*/index.js"
+      "types": "./dist/esm/*.d.ts",
+      "import": "./dist/esm/*.js",
+      "require": "./dist/*.js"
     }
   },
   "types": "dist/esm/index.d.ts",
