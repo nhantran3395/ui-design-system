@@ -6,6 +6,7 @@ import {
   Row as AriaRow,
   Table as AriaTable,
   TableHeader as AriaTableHeader,
+  TableBody as AriaTableBody,
   Button,
   CellProps,
   Collection,
@@ -19,7 +20,6 @@ import {
   composeRenderProps,
   useTableOptions
 } from 'react-aria-components';
-import { twMerge } from 'tailwind-merge';
 import { tv } from 'tailwind-variants';
 import { Checkbox } from './Checkbox';
 import { composeTailwindRenderProps, focusRing } from './utils';
@@ -88,6 +88,8 @@ export function TableHeader<T extends object>(props: TableHeaderProps<T>) {
     </AriaTableHeader>
   );
 }
+
+export const TableBody = AriaTableBody;
 
 const rowStyles = tv({
   extend: focusRing,
